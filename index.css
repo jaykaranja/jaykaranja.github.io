@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Shanti&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+body {
+    background-color: #E9EAEC;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #E9EAEC;
+}
+
+.navbar-logo {
+    margin-left: 20px;
+}
+
+
+.navbtn {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #E9EAEC;
+    transition: all 0.5s;
+    border-radius: 1rem;
+}
+
+.navbtn:hover {
+    border-color: #FAD02C;
+    transform: scale(1.05);
+}
+
+.title, .subtitle {
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .title, .subtitle {
+        color: black;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .banner {
+        padding-top: 4rem;
+        height: 400px;
+    }
+
+    .navbar-menu {
+        position: absolute;
+        display: block;
+        margin-left: 500px;
+        background-color: #E9EAEC;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbtn {
+        width: 120px;
+    }
+
+    .burger {
+        margin-top: 27px;
+        height: 20px;
+        margin-left: 19rem;
+        border-style: none;
+        background-color: #E9EAEC;
+        display: block;
+    }
+    
+}
+
+.bannerbtn {
+    background-color: #FAD02C;
+    transition: all 0.5s;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.bannerbtn:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width:600px) {
+    .burger {
+        display: none;
+    }
+}
