@@ -20,10 +20,9 @@
                     <a class="navbar-logo">
                         <img src="logo.png" width="120" height="100">
                     </a>
-                    <button class="burger is-active">
+                    <button class="burger is-active navbar-item">
                         <i class="fa-solid fa-angle-left"></i>
                     </button>
-                    <i class="fa-solid fa-left"></i>
                 </div>
                 <div class="navbar-menu">
                     <div class="navbar-end">
