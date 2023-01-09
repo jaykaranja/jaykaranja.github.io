@@ -11,12 +11,13 @@
         <link rel="stylesheet" href="index.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="index.js"></script>
+
     </head>
     <body>
         <div class="container-fluid">
             <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a href="" class="navbar-logo">
+                    <a class="navbar-logo">
                         <img src="logo.png" width="120" height="100">
                     </a>
                     <button class="burger is-active">
