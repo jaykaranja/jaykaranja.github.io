@@ -68,7 +68,7 @@ body {
     .burger {
         margin-top: 27px;
         height: 20px;
-        margin-left: 19rem;
+        padding-left: 180px;
         border-style: none;
         background-color: #E9EAEC;
         display: block;
