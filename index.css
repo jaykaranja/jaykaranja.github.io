@@ -8,6 +8,7 @@
 body {
     background-color: #E9EAEC;
     margin: 0;
+    width: 100%
 }
 
 .navbar {
@@ -66,7 +67,7 @@ body {
     }
 
     .burger {
-        margin-top: 27px;
+        margin-top: 25px;
         height: 20px;
         padding-left: 180px;
         border-style: none;
