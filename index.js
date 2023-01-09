@@ -2,7 +2,7 @@ $(document).ready(function(){
 let hidden = true;
 $("button.burger").click(function(){
     if(hidden == true){
-        $(".navbar-menu").animate({marginLeft: '320px'}, "slow");
+        $(".navbar-menu").animate({marginLeft: '280px'}, "slow");
         hidden = false;
     }
     else {
