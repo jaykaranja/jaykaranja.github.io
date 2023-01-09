@@ -1,6 +1,3 @@
-# jaykaranja.github.io
-My simple portfolio website
-
 <!DOCTYPE html>
 <html lang="">
     <head>
